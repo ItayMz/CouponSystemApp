@@ -22,6 +22,8 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/admin")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 public class Admin_controller {
 
     @Autowired

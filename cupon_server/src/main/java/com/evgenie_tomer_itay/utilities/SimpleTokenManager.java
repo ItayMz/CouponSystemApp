@@ -12,7 +12,7 @@ import java.util.*;
 public class SimpleTokenManager {
 
 	private static long EXPIRATION_TIME_PERIOD_IN_MILLIS=20000*60 ; //20 mins
-	private static final long EXPIRATION_THREAD_PERIOD_IN_MILLIS =1000*5; //5 seconds
+	private static final long EXPIRATION_THREAD_PERIOD_IN_MILLIS =1000*60*60*24; //24 hrs
 	private static long lastToken = 5678;
 	private Map<String, Token> tokens = new HashMap<String, Token>();
 

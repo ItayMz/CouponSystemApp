@@ -20,6 +20,8 @@ import java.util.*;
 
 @RestController
 @RequestMapping("company")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 public class Company_controller {
 
 	@Autowired
